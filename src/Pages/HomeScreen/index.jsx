@@ -1,7 +1,7 @@
 // portfolio/src/Pages/HomeScreen.jsx
 import React from 'react';
 import Header from '../../components/Header';
-// import HeroSection from '../components/HeroSection';
+import HeroSection from '../../components/Hero';
 // import TechStack from '../components/TechStack';
 // import Footer from '../components/Footer';
 
@@ -13,7 +13,7 @@ export default function HomeScreen() {
       
       {/* Conteúdo Principal com Storytelling e CTAs */}
       <main>
-        {/* <HeroSection /> */}
+        <HeroSection />
         {/* <TechStack /> */}
         {/* Futuramente as secções de Blog e Portfólio dinâmico entrarão aqui */}
       </main>
