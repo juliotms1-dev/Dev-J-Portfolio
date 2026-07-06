@@ -1,2 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-brand-pink: #ff2d55;
+  --color-brand-purple: #8B5CF6;
+  --color-brand-dark: #1A1B23;
+  --color-brand-light: #F8FAFC;
+
+  --font-poppins: "Poppins", sans-serif;
+  --font-montserrat: "Montserrat", sans-serif;
+}
