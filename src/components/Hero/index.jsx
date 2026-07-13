@@ -1,14 +1,12 @@
-// portfolio/src/components/HeroSection.jsx
 import React from 'react';
 import Button from '../Button';
 
 export default function HeroSection() {
-  // 🚨 ADICIONE SEU NÚMERO DO WHATSAPP AQUI (Ex: 2449XXXXXXXX)
-  const whatsappNumber = "244900000000"; 
+  const whatsappNumber = "244928332396"; 
   const whatsappMessage = encodeURIComponent("Olá Dev J, vi seu portfólio e gostaria de conversar sobre um projeto!");
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
   
-  const emailUrl = "mailto:seuemail@dominio.com"; // 🚨 ADICIONE SEU EMAIL AQUI
+  const emailUrl = "mailto:juliooootms1@gmail.com";
 
   return (
     <section id="sobre" className="min-h-[85vh] flex flex-col justify-center px-6 md:px-12 py-12 max-w-6xl mx-auto">
