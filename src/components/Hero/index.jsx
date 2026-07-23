@@ -31,7 +31,7 @@ export default function HeroSection() {
         <Button variant="secondary" href={emailUrl}>
           Enviar Email Directo
         </Button>
-        <Button variant="primary" href="/caminho-do-seu-cv.pdf" className="bg-transparent text-brand-light hover:bg-brand-light/5 border border-brand-light/10">
+        <Button variant="primary" href="/Júlio-Tomás-CV.pdf" className="bg-transparent text-brand-light hover:bg-brand-light/5 border border-brand-light/10">
           Descarregar CV (PDF)
         </Button>
       </div>
